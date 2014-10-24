@@ -1,0 +1,32 @@
+@media all and (max-width: 740px) {
+    #w {
+        width: 80%;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    #info {
+        float: none;
+
+    }
+    #photo {
+        float: none;
+    }
+    p {
+        text-align: left;
+        padding: 0;
+    }
+    #skills {
+        display: block;
+        text-align: left;
+    }
+
+}
+
+@media all and (max-width: 570px) {
+    ul li {
+        padding-left: 20px;
+        background: url('bullet.png') 0 5px no-repeat;
+        display: inline-block;
+        width: 35%;
+    }
+}
