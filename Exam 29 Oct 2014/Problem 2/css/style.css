@@ -1,0 +1,127 @@
+@font-face {
+    font-family: ThisNight;
+    src: url(../ThisNight.ttf);
+}
+@font-face {
+    font-family: LDFComicSans;
+    src: url(../LDFComicSans.ttf);
+}
+html, body, div, header, h1, h2, p, nav, footer, section, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: LDFComicSans, Arial,sans-serif;
+    color: #111;
+}
+header {
+    font-family: ThisNight, Helvetica, sans-serif;
+}
+header h1{
+    color: white;
+    background-color: #234465;
+    font-size: 90px;
+    text-align: center;
+    padding: 15px 0;
+}
+header nav {
+    text-align: center;
+}
+.active {
+    background-color: #234465;
+    color: white;
+    padding: 8px 13px;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #234465;
+    font-size: 18px;
+}
+header h1:hover, header nav ul li a:hover {
+    color: #FF9C00;
+    cursor: pointer;
+}
+section {
+    text-align: center;
+    margin: 15px 0;
+}
+article {
+    display: inline-block;
+    text-align: left;
+    width: 44%;
+    height: 350px;
+    vertical-align: top;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #234465;
+    border-radius: 10px;
+    padding: 10px;
+}
+section article h2 {
+    text-align: center;
+    font-size: 32px;
+    background-color: #234465;
+    color: white;
+    padding: 12px 0;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 5px #D78B12;
+}
+section article p {
+    line-height: 25px;
+}
+img {
+    width: 100%;
+    cursor: pointer;
+}
+.createdBy {
+    font-style: italic;
+    margin: 5px 0;
+    font-size: 14px;
+}
+footer {
+    font-family: LDFComicSans, Arial, sans-serif;
+}
+footer nav {
+    text-align: center;
+    background-color: #234465;
+    padding: 1px 0;
+    border-bottom: 1px solid #fff;
+}
+footer nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+footer nav ul li a:hover {
+    background-color: #FF9C00;
+    color: #234465;
+}
+.softUniLink{
+    height: 120px;
+    background-color: #234465;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.softUniLink:hover {
+    color: #FF9C19;
+    cursor: pointer;
+}
