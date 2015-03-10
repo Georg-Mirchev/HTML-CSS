@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Open-Sans-ExtraBold;
+    src: url(../OpenSans-ExtraBold.ttf);
+}
+html, body, div, header, h1, h2, h3, p ,main ,section, img, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body {
+    font-family: Open-Sans, Helvetica, sans-serif;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F0F0E8;
+    margin-top: 50px;
+    color: #7F8287;
+}
+header h1 {
+    font-family: Open-Sans-ExtraBold, sans-serif;
+    font-size: 56px;
+    color: #009288;
+    text-shadow: 1px 2px #fff;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+header h2 {
+    font-size: 32px;
+    text-shadow: 1px 1px #fff;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+header p {
+    margin: 15px 0;
+}
+section {
+    width: 200px;
+    display: inline-block;
+    padding: 0 15px 15px 15px;
+    margin: 20px 10px;
+}
+main section h3 {
+    font-size: 16px;
+    margin: 15px 0;
+    text-shadow: 1px 1px #fff;
+}
+main section p {
+    font-size: 11px;
+    line-height: 30px;
+}
+section {
+	border-left: 10px solid transparent;	
+}
+
+section:hover {
+    background-color: #F6F6F5;
+    border-left: 10px solid #009288;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    padding: 0 10px 15px 10px;
+}
