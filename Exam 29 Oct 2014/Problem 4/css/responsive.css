@@ -1,0 +1,69 @@
+@media all and (max-width: 959px) {
+
+    header nav {
+        float: none;
+    }
+    #content {
+        margin: 0 20px 0 0;
+    }
+    #sidebar #social {
+        float: none;
+    }
+    #sidebar #n p a {
+        float: right;
+    }
+    #sidebar {
+        width: 20%;
+    }
+    #content {
+        width: 50%;
+	margin: 0 20px 100px 100px;
+    }
+    #container {
+        width: 90%;
+    }
+    #about {
+        width: 70%;
+    }
+}
+@media all and (max-width: 759px) {
+
+    #container {
+        width: 75%;
+    }
+    #content {
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+    header {
+        margin: 0 0 20px 0;
+    }
+    header nav {
+        clear: both;
+        text-align: left;
+        padding: 25px 0;
+    }
+    header nav li {
+        margin: 0;
+    }
+    #sidebar {
+        width: 92%;
+    }
+    #sidebar #social {
+        float: left;
+    }
+    #search {
+        clear: both;
+    }
+    #sidebar #search #searchbar {
+        width: 88%;
+    }
+}
+@media all and (max-width: 539px){
+    #content article h2 {
+        font-size: 21px;
+    }
+    header h1 {
+        font-size: 32px;
+    }
+}
