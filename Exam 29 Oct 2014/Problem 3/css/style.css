@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*CSS RESSET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v11/c28rH3kclCLEuIsGhOg7evY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v11/9NqNYV_LP7zlAF8jHr7f1vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v11/hhO8-q4hv9jbU4UQyl-u4vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*STYLE*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/background.png);
+}
+.wrapper {
+    width: 750px;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+}
+h2 {
+    background-color: #679966;
+    padding: 10px 0;
+    font-family: Lobster, sans-serif!important;
+    color: #D7E5EE!important;
+    font-size: 25px;
+    margin: 0!important;
+}
+.left {
+    width: 350px;
+    height: 215px;
+    background-color: #232323;
+    margin-top: 18px;
+    float:left;
+}
+.glyphicon {
+	top: 0px!important;
+}
+.glyphicon-fire {
+    font-size: 60px;
+    margin-top: 20px;
+    color: #D7E5EE;
+}
+.top {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 20px;
+    margin-bottom: 7px;
+}
+.right {
+    width: 350px;
+    height: 215px;
+    margin-top: 18px;
+    float: right;
+}
+.glyphicon-ok-circle {
+    font-size: 17px;
+    margin-top: 8px;
+    color: #D7E5EE;
+}
+.login {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #D7E5E2;
+}
+.form-group {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.btn-default {
+    background-color: #232323!important;
+    width: 90%;
+    border: 0!important;
+    color: #CBE5E1!important;
+    margin: 5px 0;
+}
+.input-group-addon {
+    background-color: #679966!important;
+    border: 0!important;
+}
+.btn-default:hover {
+    background-color: #679966!important;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 auto!important;
+}
